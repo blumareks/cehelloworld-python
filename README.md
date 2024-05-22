@@ -48,7 +48,7 @@ how to add dependencies: https://cloud.ibm.com/docs/codeengine?topic=codeengine-
 for Python: https://cloud.ibm.com/docs/codeengine?topic=codeengine-fun-create-local#function-python-dep-local
 
 
-Create your function by saving your code into a __main__.py file
+Create your function by saving your code into a `__main__.py` file
 
 create a function that includes a dependency for a specific Python module by creating a requirements.txt file. In this case, both the source code and requirements file are located in the same folder.
 
