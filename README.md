@@ -7,12 +7,16 @@ Code Engine hello world example in python from local source code: https://cloud.
 ```
 ibmcloud login --sso 
 ```
+
 select Resource Group: 
+
 ```
 ibmcloud target -g RESOURCE_GROUP_NAME 
+```
 
-create a CE Project Approval Flow; 
-select it 
+
+
+create a CE Project `Approval Flow`;  select it 
 
 ```
 ibmcloud ce project select -n 'Approval Flow'
@@ -20,7 +24,8 @@ ibmcloud ce project select -n 'Approval Flow'
 ibmcloud ce fn create --name pylorem-local --runtime python-3.11 --build-source .
 ```
 
-details: 
+details:
+
 ```
 ibmcloud ce function get -n pylorem-local
 ```
